@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 
 #if !defined(_WIN32) && !defined(_WIN64)
 #define TMP_PATH "/tmp/"
