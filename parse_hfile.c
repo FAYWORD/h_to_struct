@@ -45,7 +45,7 @@ int free_word(read_hfile_t *h)
 int process_word(all_structs_t *all_s, read_hfiles_t *hs, char *file_dir)
 {
     int nd;
-    size_t len;
+    unsigned int len;
     char *word = hs->h[hs->depth].word;
     int i;
 
